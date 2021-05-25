@@ -1,0 +1,1 @@
+# simple-translate-clone-pyqt5
