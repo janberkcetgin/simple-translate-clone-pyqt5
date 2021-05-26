@@ -21,7 +21,7 @@ def translate1():
                             to_lang=_Qcombobox2)
     ui.textEdit.setText(translator.translate(_LineEdit1))
 
-def degistir():
+def change():
     x = ui.comboBox.currentText()
     y = ui.comboBox_2.currentText()
     ui.comboBox.setCurrentText(y)
@@ -33,7 +33,7 @@ def copy():
     ui.statusbar.showMessage("Copied",3000)
 
 
-ui.pushButton_change.clicked.connect(degistir)
+ui.pushButton_change.clicked.connect(change)
 ui.pushButton.clicked.connect(translate1)
 ui.pushButton_copy.clicked.connect(copy)
 
